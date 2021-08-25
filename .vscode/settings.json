@@ -2,5 +2,12 @@
   "editor.formatOnSave": false,
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
-  }
+  },
+  "cSpell.words": [
+    "Cantarell",
+    "Helvetica",
+    "Neue",
+    "Roboto",
+    "Segoe"
+  ]
 }
