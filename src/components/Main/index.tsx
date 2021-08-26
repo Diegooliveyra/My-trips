@@ -1,3 +1,7 @@
-const Main = () => <h1>Next na pratica</h1>
+import dynamic from 'next/dynamic'
+
+const Map = dynamic(() => import('components/Map/Map'), { ssr: false })
+
+const Main = () => <Map />
 
 export default Main
