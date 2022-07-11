@@ -2,7 +2,7 @@ import { CloseOutline } from '@styled-icons/evaicons-outline/CloseOutline'
 import LinkWrapper from 'components/LinkWrapper'
 import * as S from './styles'
 
-const AboutTamplate = () => (
+const PageTemplate = () => (
   <S.Content>
     <LinkWrapper href="/">
       <CloseOutline size="32" />
@@ -19,4 +19,4 @@ const AboutTamplate = () => (
   </S.Content>
 )
 
-export default AboutTamplate
+export default PageTemplate
